@@ -21,7 +21,7 @@ Patch0:         %{name}-javadoc-nonet.patch
 Url:            http://commons.apache.org/collections/
 BuildRequires:  ant
 %if !%{with bootstrap}
-#BuildRequires:  ant-junit
+BuildRequires:  ant-junit junit
 %endif
 BuildRequires:  java-rpmbuild >= 0:1.7.2
 BuildRequires:  xml-commons-apis >= 1.3
