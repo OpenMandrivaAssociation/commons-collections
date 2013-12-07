@@ -2,7 +2,7 @@
 
 Name:       commons-collections
 Version:    3.2.1
-Release:    2
+Release:    3
 Epoch:      0
 Summary:    Provides new interfaces, implementations and utilities for Java Collections
 License:    Apache Software License 
