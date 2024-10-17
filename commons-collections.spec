@@ -18,7 +18,7 @@ Source6:    collections-tomcat5-build.xml
 
 Patch0:         %{name}-javadoc-nonet.patch
 
-Url:            http://commons.apache.org/collections/
+Url:            https://commons.apache.org/collections/
 BuildRequires:  ant
 %if !%{with bootstrap}
 BuildRequires:  ant-junit junit
